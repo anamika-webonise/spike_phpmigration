@@ -1,0 +1,57 @@
+2012-06-25 17:54:32 Error: [MissingPluginException] Plugin Migrations could not be found.
+#0 /home/webonise/projects/amsc/app/Config/bootstrap.php(87): CakePlugin::load('Migrations')
+#1 /usr/share/php/Cake/Core/Configure.php(88): include('/home/webonise/...')
+#2 /usr/share/php/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#3 /usr/share/php/Cake/Console/ShellDispatcher.php(131): require('/usr/share/php/...')
+#4 /usr/share/php/Cake/Console/ShellDispatcher.php(101): ShellDispatcher->_bootstrap()
+#5 /usr/share/php/Cake/Console/ShellDispatcher.php(57): ShellDispatcher->_initEnvironment()
+#6 /usr/share/php/Cake/Console/ShellDispatcher.php(68): ShellDispatcher->__construct(Array)
+#7 /usr/bin/cake.php(41): ShellDispatcher::run(Array)
+#8 {main}
+2012-06-25 17:57:23 Error: [MissingPluginException] Plugin Migrations could not be found.
+#0 /home/webonise/projects/amsc/app/Config/bootstrap.php(87): CakePlugin::load('Migrations')
+#1 /usr/share/php/Cake/Core/Configure.php(88): include('/home/webonise/...')
+#2 /usr/share/php/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#3 /usr/share/php/Cake/Console/ShellDispatcher.php(131): require('/usr/share/php/...')
+#4 /usr/share/php/Cake/Console/ShellDispatcher.php(101): ShellDispatcher->_bootstrap()
+#5 /usr/share/php/Cake/Console/ShellDispatcher.php(57): ShellDispatcher->_initEnvironment()
+#6 /usr/share/php/Cake/Console/ShellDispatcher.php(68): ShellDispatcher->__construct(Array)
+#7 /usr/bin/cake.php(41): ShellDispatcher::run(Array)
+#8 {main}
+2012-06-25 17:57:30 Error: [MissingPluginException] Plugin Migrations could not be found.
+#0 /home/webonise/projects/amsc/app/Config/bootstrap.php(87): CakePlugin::load('Migrations')
+#1 /usr/share/php/Cake/Core/Configure.php(88): include('/home/webonise/...')
+#2 /usr/share/php/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#3 /usr/share/php/Cake/Console/ShellDispatcher.php(131): require('/usr/share/php/...')
+#4 /usr/share/php/Cake/Console/ShellDispatcher.php(101): ShellDispatcher->_bootstrap()
+#5 /usr/share/php/Cake/Console/ShellDispatcher.php(57): ShellDispatcher->_initEnvironment()
+#6 /usr/share/php/Cake/Console/ShellDispatcher.php(68): ShellDispatcher->__construct(Array)
+#7 /usr/bin/cake.php(41): ShellDispatcher::run(Array)
+#8 {main}
+2012-06-25 18:00:21 Error: [MissingPluginException] Plugin Migrations could not be found.
+#0 /home/webonise/projects/amsc/app/Config/bootstrap.php(87): CakePlugin::load('Migrations')
+#1 /usr/share/php/Cake/Core/Configure.php(88): include('/home/webonise/...')
+#2 /usr/share/php/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#3 /usr/share/php/Cake/Console/ShellDispatcher.php(131): require('/usr/share/php/...')
+#4 /usr/share/php/Cake/Console/ShellDispatcher.php(101): ShellDispatcher->_bootstrap()
+#5 /usr/share/php/Cake/Console/ShellDispatcher.php(57): ShellDispatcher->_initEnvironment()
+#6 /usr/share/php/Cake/Console/ShellDispatcher.php(68): ShellDispatcher->__construct(Array)
+#7 /usr/bin/cake.php(41): ShellDispatcher::run(Array)
+#8 {main}
+2012-06-25 18:02:06 Error: [MissingPluginException] Plugin Migrations could not be found.
+#0 /home/webonise/projects/amsc/app/Config/bootstrap.php(87): CakePlugin::load('Migrations')
+#1 /usr/share/php/Cake/Core/Configure.php(88): include('/home/webonise/...')
+#2 /usr/share/php/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#3 /usr/share/php/Cake/Console/ShellDispatcher.php(131): require('/usr/share/php/...')
+#4 /usr/share/php/Cake/Console/ShellDispatcher.php(101): ShellDispatcher->_bootstrap()
+#5 /usr/share/php/Cake/Console/ShellDispatcher.php(57): ShellDispatcher->_initEnvironment()
+#6 /usr/share/php/Cake/Console/ShellDispatcher.php(68): ShellDispatcher->__construct(Array)
+#7 /usr/bin/cake.php(41): ShellDispatcher::run(Array)
+#8 {main}
+2012-06-25 18:22:24 Error: [MissingViewException] View file "/home/webonise/projects/amsc/app/View/Users/index.ctp" is missing.
+#0 /home/webonise/projects/amsc/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /home/webonise/projects/amsc/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/webonise/projects/amsc/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/webonise/projects/amsc/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webonise/projects/amsc/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
